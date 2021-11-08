@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu > * {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+}
+
+table {
+    border-collapse: separate;
+    margin-top: 20px;
+    margin-left: -1px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: silver;
+}
+
+tr:nth-of-type(even) {
+    background-color: gray;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+    min-width: 250px;
+}
+
+th > a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+th > small {
+    margin-left: 10px;
+}
+
+td {
+    padding: 10px;
+    min-width: 250px;
+}
+
+.r {
+    text-align: right;
+}
+
+.c {
+    text-align: center;
+}
+
+ul {
+    margin-top : 20px;
+    margin-left: 18px;
+    line-height: 1.5;
+}
+
+form {
+    margin: 20px 0px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.submit {
+    display: block;
+}
+
+p {
+    color: brown;
+}
+
+span {
+    color: brown;
+    margin-left: 5px;
+}
+
+.search {
+    margin-bottom: 0;
+}
+
+.msg-search {
+    margin-top: 20px;
+}

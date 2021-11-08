@@ -1,0 +1,15 @@
+Exercice : 
+À partir de la base de données Ligue fournie et du début d'application fourni :
+
+a) Créer le formulaire d'ajout de joueur, permettant d'ajouter un joueur en spécifiant l'équipe pour laquelle il joue. 
+Il faudra protéger ce formulaire contre les attaques par injection et le contenu problématique en utilisant les requêtes préparées!
+
+b) Créer le formulaire de recherche permettant de trouver un joueur par son prénom et / ou son nom. 
+Le résultat affichera tous les joueurs possédant un nom ou un prénom similaire à celui entré, 
+ainsi que la ville et l'équipe de ces joueurs. Cette requête doit aussi être préparée!
+
+c) Ajouter la fonctionnalité de tri dans votre fichier ListeÉquipes pour trier les équipes par nom ou par ville.  
+
+
+La navigation doit aussi être intégrée dans votre mini-site de gestion des joueurs de la ligue 
+(je dois pouvoir naviguer vers toutes vos pages à l'aide de liens). Vous devez utiliser la structure vue dans ce cours, avec le fichier FonctionsDB.php.
